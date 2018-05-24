@@ -1,6 +1,7 @@
 {
-    "name": "adrzei/hibiscus-php",
+    "name": "adrzei/hibiscus-server-php",
     "description": "XML RPC Client for Hibiscus",
+    "version": "1.0.0",
     "homepage": "http://willuhn.de/",
     "autoload": {
         "psr-4": {
