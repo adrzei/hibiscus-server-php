@@ -6,5 +6,5 @@
 Install via composer:
 
 ```bash
-composer require adrzei/hibiscus-php
+composer require adrzei/hibiscus-server-php
 ```
