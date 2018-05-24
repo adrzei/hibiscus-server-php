@@ -1,0 +1,13 @@
+{
+    "name": "adrzei/hibiscus-php",
+    "description": "XML RPC Client for Hibiscus",
+    "homepage": "http://willuhn.de/",
+    "autoload": {
+        "psr-4": {
+            "hibiscus\\": "src/"
+        },
+        "files": [
+            "src/hibiscus/include.php"          
+        ]
+    }   
+}
