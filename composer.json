@@ -10,5 +10,6 @@
         "files": [
             "src/hibiscus/include.php"          
         ]
-    }   
+    },
+    "minimum-stability": "dev"
 }
