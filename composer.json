@@ -1,13 +1,16 @@
 {
-    "name": "adrzei/hibiscus-php",
-    "description": "XML RPC Client for Hibiscus",
-    "homepage": "http://willuhn.de/",
+    "name": "adrzei/hibiscus-server-php",
+    "description": "JSON Client for Hibiscus Payment Server",
+    "homepage": "https://www.adrianz.de",
     "autoload": {
         "psr-4": {
             "hibiscus\\": "src/"
         },
         "files": [
-            "src/hibiscus/include.php"          
+            "src/boot.php"          
         ]
-    }   
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
 }
